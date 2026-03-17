@@ -6,6 +6,8 @@ alias ga="git add"
 alias gc="git commit -m"
 alias gp="git pull"
 
+set -x GPG_TTY (tty)
+
 # Custom prompt
 set fish_greeting
 set fish_prompt
